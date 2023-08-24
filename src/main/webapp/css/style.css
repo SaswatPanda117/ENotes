@@ -1,0 +1,80 @@
+/* -----------------------------------------------------------------------------------navbar.jsp */
+.bg-custom {
+	background: #8e24aa;
+}
+
+.navbar .nav-item .nav-link {
+	font-size: 20px;
+	color: white;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+	color: black;
+	background: white;
+	border-radius: 10px;
+}
+
+/* -----------------------------------------------------------------------------------index.jsp */
+.back-img {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.back-img, img {
+	width: 100%;
+	height: 90vh;
+	background-size: cover;
+}
+
+.home-content {
+	position: absolute;
+	top: 110px;
+	left: 430px;
+}
+
+/* -----------------------------------------------------------------------------------regsiter.jsp */
+.main-register {
+	position: relative;
+	min-height: 100vh;
+	background-image: linear-gradient(to right top, #12c2e9, #57adff, #b28cee, #ee62b0,
+		#f64f59);
+}
+
+/* .register-div{
+	height: 655px;
+} */
+
+/* -----------------------------------------------------------------------------------login.jsp */
+.main-login {
+	position: relative;
+	min-height: 100vh;
+	background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8,
+		#9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1
+		);
+}
+
+/* -----------------------------------------------------------------------------------home.jsp */
+
+.home-image{
+	position: relative;
+	max-width: 410px;
+}
+
+/* -----------------------------------------------------------------------------------showNotes.jsp */
+
+.showNote-image{
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+/* -----------------------------------------------------------------------------------footer.jsp */
+.footer-div {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 35px;
+	padding-top: 5px;
+}
